@@ -2,7 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First please create a .env file in the root and then define this
+
+```bash
+MONGODB_URI=mongodb+srv://<db_username>:<db_password>@software1.gptczdh.mongodb.net/?retryWrites=true&w=majority&appName=software1
+```
+
+As this repo is public I can't provide the mongo credentials in public:
+
+Then, run the development server:
 
 ```bash
 npm run dev
